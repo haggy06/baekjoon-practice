@@ -10,6 +10,7 @@ public class Main_1008 {
 		
 		A = scan.nextInt();
 		B = scan.nextInt();
+		scan.close();
 			
 		System.out.print(A / B);
 	}
