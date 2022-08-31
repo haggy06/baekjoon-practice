@@ -11,7 +11,6 @@ public class Main_10869 {
 		A = scan.nextInt();
 		B = scan.nextInt();
 		scan.close();
-			
 		
 		System.out.println (A + B);
 		System.out.println (A - B);
