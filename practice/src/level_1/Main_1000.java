@@ -1,17 +1,17 @@
-package practice;
+package level_1;
 
 import java.util.Scanner;
 
-public class Main_1008 {
-
+public class Main_1000 {
+	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		double A, B;
+		int A, B;
 		
 		A = scan.nextInt();
 		B = scan.nextInt();
 		scan.close();
 			
-		System.out.print(A / B);
+		System.out.print (A + B);
 	}
 }

@@ -1,16 +1,16 @@
-package practice;
+package level_1;
 
 import java.util.Scanner;
 
-public class Main_18108 {
+public class Main_10926 {
 
 	public static void main(String[] args) {
-		int B_Y;
+		String name;
 		
 		Scanner scan = new Scanner(System.in);
-		B_Y = scan.nextInt();
+		name = scan.next();
 		scan.close();
 		
-		System.out.print( B_Y - 543 );
+		System.out.println (name + "??!");
 	}
 }

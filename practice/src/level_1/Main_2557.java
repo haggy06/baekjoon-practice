@@ -1,4 +1,4 @@
-package practice;
+package level_1;
 
 public class Main_2557 {
 	
