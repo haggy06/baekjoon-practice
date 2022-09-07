@@ -1,13 +1,12 @@
 package level_3;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main_10952 {
 
 	public static void main(String[] args) {
-		List<Integer> arr = new ArrayList<>();
+		ArrayList<Integer> arr = new ArrayList<>();
 		int A, B;
 		
 		Scanner scan = new Scanner(System.in);
@@ -15,14 +14,13 @@ public class Main_10952 {
 		while ( true ) {
 			A = scan.nextInt();
 			B = scan.nextInt();
-			int sum = A+B;
 			
-			arr.add(sum);
+			if ( A == B && A == 0 ) break;
+			
+			arr.add(A + B);
 		}
+		scan.close();
 		
-		for (int i : arr) {
-			System.out.println( i );
-		}
-			
+		for (int i : arr) System.out.println( i );
 	}
 }
