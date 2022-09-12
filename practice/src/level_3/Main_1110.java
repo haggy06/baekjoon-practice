@@ -10,12 +10,13 @@ public class Main_1110 {
 		scan.close();
 		int a, b, X = N, S = 0;
 		
-		while ( N != X ) {
+		while ( true ) {
 			b = X % 10;
 			a = X / 10;
 			X = a + b;
 			X = X % 10 + b * 10;
 			S++;
+			if ( N == X ) break;
 		}
 		System.out.print( S );
 	}
