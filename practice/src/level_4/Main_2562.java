@@ -9,7 +9,7 @@ public class Main_2562 {
 		
 		Scanner scan = new Scanner(System.in);
 		list[ 0 ] = scan.nextInt();
-		int L = list[ 0 ], num = 0;
+		int L = list[ 0 ], num = 1;
 		for ( int i = 1; i < 9; i++ ) {
 			list[ i ] = scan.nextInt();
 			if ( L < list[ i ] ) {
